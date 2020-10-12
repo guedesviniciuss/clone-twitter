@@ -269,8 +269,7 @@ div.wrapper-content aside.profile ul.list li img {
 }
 
 section.timeline {
-  width: 600px;
-  background: blue;
+  flex: 1;
 }
 
 div.wrapper-content aside.profile .widget {
@@ -324,4 +323,110 @@ div.wrapper-content aside.profile .images ul li {
   height: 70px;
   background: #d0d5d9;
   margin: 0px 5px 5px 0px;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: solid 1px #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: 0;
+}
+
+div.wrapper-content aside.widgets .follow .title {
+  margin-top: 10px;
+
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .follow .title a {
+  text-decoration: none;
+  color: #3bb9e3;
+  font-size: 12px;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .follow .title a::before {
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info span {
+  color: #9a9a9a;
+  font-weight: normal;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: 30px;
+
+  color: #3bb9e3;
+  border: solid 1px #3bb9e3;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  }
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  text-decoration: none;
+  color: #ccd6dd;
+  font-size: 14px;
 }
