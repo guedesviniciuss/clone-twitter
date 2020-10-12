@@ -430,3 +430,50 @@ div.wrapper-content aside.widgets .follow ul li > a {
   color: #ccd6dd;
   font-size: 14px;
 }
+
+div.wrapper-content aside.widgets .trends {
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .trends strong {
+  color: #1f2226;
+  font-size: 18px;
+  margin-bottom: 500px;
+}
+
+div.wrapper-content aside.widgets .trends strong > a {
+  color: #3bb9e3;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 500px;
+  padding-left: 10px;
+  position: relative;
+}
+
+div.wrapper-content aside.widgets .trends strong > a::before {
+  content: '';
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .trends ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+
+div.wrapper-content aside.widgets .trends ul li {
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.widgets .trends ul li a {
+  text-decoration: none;
+  color: #3bb9e3;
+  margin-top: 500px;
+  font-weight: bold;
+}
